@@ -57,3 +57,6 @@ Simply run the included update script from inside the project directory:
 1. Runs `scraper.py` to find any new pages on the website.
 2. Runs `extractor.py` to overwrite your `knowledge_base/` folder with the newest text.
 3. Your MCP server instantly starts using the new files. There is no need to restart anything!
+
+## Daily Catchup Log
+- **Update:** 2026-03-13 21:03:50 - Automated Catchup push.

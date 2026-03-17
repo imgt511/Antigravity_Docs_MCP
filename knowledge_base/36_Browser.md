@@ -15,4 +15,4 @@ To disable the use of all browser tools, you may disable the browser tools setti
 Antigravity detects and uses your existing Chrome application. If you don’t already have Chrome, you must download it here. If Antigravity is unable to detect your chrome installation, you may have to specify the path to it in the following setting:
 
 Files
-Chrome Extension
+Allowlist / Denylist

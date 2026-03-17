@@ -24,7 +24,7 @@ Global rules live in ~/.gemini/GEMINI.md and are applied across all workspaces.
 
 Workspace Rules
 
-Workspace rules live in the .agent/rules folder of your workspace or git root.
+Workspace rules live in the .agents/rules folder of your workspace or git root.
 
 At the rule level you can define how a rule should be activated:
 
@@ -32,6 +32,9 @@ Manual: The rule is manually activated via at mention in Agent’s input box.
 Always On: The rule is always applied.
 Model Decision: Based on a natural language description of the rule, the model decides whether to apply the rule.
 Glob: Based on the glob pattern you define (e.g., .js, src/**/.ts), the rule will be applied to all files that match the pattern.
+
+Note: Antigravity now defaults to .agents/rules, but still maintains backward support for .agent/rules.
+
 @ Mentions
 
 You can reference other files using @filename in a Rules file. If filename is a relative path, it will be interpreted relative to the location of the Rules file. If filename is an absolute path, it will be resolved as a true absolute path, otherwise it will be resolved relative to the repository. For example, @/path/to/file.md will first attempt to be resolved to /path/to/file.md, and if that file does not exist, it will be resolved to workspace/path/to/file.md.

@@ -23,12 +23,14 @@ Where skills live
 Antigravity supports two types of skills:
 
 Location	Scope
-<workspace-root>/.agent/skills/<skill-folder>/	Workspace-specific
+<workspace-root>/.agents/skills/<skill-folder>/	Workspace-specific
 ~/.gemini/antigravity/skills/<skill-folder>/	Global (all workspaces)
 
 Workspace skills are great for project-specific workflows, like your team's deployment process or testing conventions.
 
 Global skills work across all your projects. Use these for personal utilities or general-purpose tools you want everywhere.
+
+Note: Antigravity now defaults to .agents/skills, but still maintains backward support for .agent/skills.
 
 Creating a skill
 
@@ -36,7 +38,7 @@ To create a skill:
 
 Create a folder for your skill in one of the skill directories
 Add a SKILL.md file inside that folder
-.agent/skills/
+.agents/skills/
 └─── my-skill/
     └─── SKILL.md
 
@@ -71,7 +73,7 @@ Skill folder structure
 
 While SKILL.md is the only required file, you can include additional resources:
 
-.agent/skills/my-skill/
+.agents/skills/my-skill/
 ├─── SKILL.md       # Main instructions (required)
 ├─── scripts/       # Helper scripts (optional)
 ├─── examples/      # Reference implementations (optional)

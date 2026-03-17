@@ -26,7 +26,7 @@ Additional Models
 
 Antigravity uses a number of other models for various parts of the stack that are not customizable:
 
-Nano Banana Pro: Used by the generative image tool when the Agent wants to produce a UI mockup, needs images to populate a web page or application, generate system or architecture diagrams, or other generative image tasks.
+Nano Banana Pro 2: Used by the generative image tool when the Agent wants to produce a UI mockup, needs images to populate a web page or application, generate system or architecture diagrams, or other generative image tasks.
 Gemini 2.5 Pro UI Checkpoint: Used by the browser subagent to actuate the browser, such as clicking, scrolling, or filling in input.
 Gemini 2.5 Flash: Used in the background for checkpointing and context summarization.
 Gemini 2.5 Flash Lite: Used by the codebase semantic search tool.

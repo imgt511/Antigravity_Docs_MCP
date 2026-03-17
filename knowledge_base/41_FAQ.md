@@ -321,13 +321,21 @@ What is Google Antigravity’s stance on data collection?
 
 Please refer to the Terms of Service. You may opt out of data collection at any point from the Settings panel.
 
+How do I sign in with a GCP project?
+
+This sign-in option is only available to invited teams, and we are not currently taking requests. If you have a Google Workspace subscription, the AI Ultra Access add-on provides access to higher limits on Antigravity.
+
 How do I get support?
 
-During this public preview period, there will be limited support at antigravity-support@google.com
+Check out the communities on our Support page.
 
 What are the model rate limits?
 
 Please see more details in the docs on Plans.
+
+Why can’t I use third party software (e.g. Claude Code, OpenClaw, OpenCode) with my Antigravity login?
+
+Using third party software, tools, or services to access Antigravity is a violation of our Terms of Service, and severely degrades the experience for legitimate product users. Such actions may be grounds for suspension or termination of your account. If you would like to use a third party coding agent with Gemini, we recommend using a Vertex or AI Studio API key.
 
 Does Google Antigravity currently support worktrees?
 

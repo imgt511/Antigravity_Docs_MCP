@@ -50,14 +50,14 @@ automatic_cluster
 Browser
 keyboard_arrow_right
 
-(In preview) Browser-use agent capabilities to read & actuate on more surfaces beyond just the IDE.
+Browser-use agent capabilities to read & actuate on more surfaces beyond just the IDE.
 
 automatic_cluster
 
 Agent Manager
 keyboard_arrow_right
 
-(In preview) An orchestration “no code” view to start and view tasks in a minimalist product focused on the conversation and artifacts.
+An orchestration “no code” view to start and view tasks in a minimalist product focused on the conversation and artifacts.
 
 Key Terms
 Agent: The primary AI modality within Antigravity. While the user can work tightly with an Agent within the Editor, they can also have multiple agents working across multiple codebases, orchestrated and monitored through the Agent Manager.

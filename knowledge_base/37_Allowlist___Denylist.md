@@ -27,5 +27,5 @@ When the browser attempts to navigate to a non-allowlisted URL, it will prompt y
 
 You can also add/remove URLS from the allowlist manually. However, the denylist always takes precedence: you cannot allowlist a URL that appears on the denylist.
 
-Chrome Extension
+Browser
 Separate Chrome Profile
